@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "open Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+.full-page {
+    background-color: rgb(11, 10, 10);
+}
+
+body {
+    min-height: 100vh;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    border-color: rgb(127, 138, 142);
+    background-color: #e32020;
+}
+
+.about_section {
+    background: url("../images/place9.jpg") no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px;
+}
+
+.inner_container {
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.inner_container h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text {
+    font-size: 13px;
+    color: #796ccd;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}

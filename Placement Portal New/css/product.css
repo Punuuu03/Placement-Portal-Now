@@ -1,0 +1,142 @@
+/* CSS for product.css */
+body{
+    /* background-color: #b2d6ec; */
+    background-size: cover; 
+    /* background-repeat: no-repeat;  */
+    /* background-color: #0056b3; */
+    
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSvRrsIfPM7G_Csh1szjdsZVHrPXT9oh6VvA&usqp=CAU);
+
+}
+.container {
+    width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    object-fit: cover;
+ }
+ 
+
+ .placement {
+    margin-top: 50px;
+ }
+ 
+ .heading {
+    text-align: center;
+    margin-bottom: 50px;
+ }
+ 
+ .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+ }
+ 
+ .box {
+    background: #faf8f9b9;
+    padding: 20px;
+    text-align: center;
+ }
+ 
+ .box img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+ }
+ 
+ 
+ .package {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+ }
+ 
+ .btn {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+ }
+ 
+ .btn:hover {
+    background: #0056b3;
+ }
+ 
+ .message {
+    background: #f2dede;
+    color: #a94442;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    position: relative;
+ }
+ 
+ .message i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    cursor: pointer;
+ }
+ 
+
+
+
+
+
+
+/* Style for the form */
+form {
+    width: 100%;
+    max-width: 600px; /* Adjust the width as needed */
+    margin: 0 auto;
+}
+
+
+
+/* Style for the image */
+
+
+/* Style for the headings */
+.box h3 {
+    margin: 5px 0;
+}
+
+/* Style for the package */
+.package {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff; /* Adjust the color as needed */
+}
+
+/* Style for the apply button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Adjust the color as needed */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Adjust the hover color as needed */
+}
+
+/* Hide the default input box */
+input {
+    display: none;
+}
+
+
+
+h1{
+   color: #f2dede;
+}
+ 

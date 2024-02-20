@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+     background-image: url(https://t3.ftcdn.net/jpg/05/71/32/96/360_F_571329676_LNHLQHqdykPKgJEQxO8OcX5t3zkuPrK6.jpg);
+       background-size: cover; 
+    background-repeat: no-repeat; 
+    
+}
+p{
+    color:black;
+}
+h1{
+    color:black;
+}
+.cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    background-image: url(data:image/jpeg;base64,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);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    padding: 30px;
+    box-shadow: 0 2px 5px black;
+}
+.cont .content {
+    width: 65%;
+    padding-right: 0px;
+}
+.cont .buttons {
+    width: 30%;
+    text-align: center;
+}
+.cont .button {
+    display: block;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #325881;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.cont .button:hover {
+    background-color: #0056b3;
+}

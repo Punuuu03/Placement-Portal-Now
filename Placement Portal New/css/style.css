@@ -1,0 +1,217 @@
+/* Body and General Styles */
+body {
+   font-family: Arial, sans-serif;
+   background-color: #e5b4c7;
+   margin: 0;
+   padding: 0;
+   color: #333; /* Change text color */
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+
+/* Table Styles */
+.display-placement-table {
+   margin-top: 30px;
+}
+
+.display-placement-table table {
+   width: 100%;
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+.display-placement-table th,
+.display-placement-table td {
+   padding: 10px;
+   text-align: left;
+}
+
+.display-placement-table th {
+   background-color: #007bff;
+   color: #fff;
+}
+
+.display-placement-table td {
+   border-bottom: 1px solid #ddd;
+}
+
+.display-placement-table img {
+   max-width: 100px;
+   height: auto;
+   border-radius: 5px;
+}
+
+
+.edit-form-container {
+   display: none;
+   justify-content: center;
+   align-items: center;
+   position: fixed;
+   top: 50%; /* Center vertically */
+   left: 50%; /* Center horizontally */
+   transform: translate(-50%, -50%); /* Center the container */
+   width: 80%; /* Reduced width */
+   max-width: 400px; /* Limit maximum width */
+   height: auto; /* Auto height */
+   max-height: 80%; /* Limit maximum height */
+   /* background-color: rgba(44, 43, 43, 0.5); */
+   z-index: 999;
+}
+
+
+.edit-form-container form {
+   background-color: white;
+   padding: 20px;
+   border-radius: 8px;
+}
+
+
+.edit-form-container form img {
+   display: block;
+   margin-bottom: 10px;
+   width: 100%; /* Ensure the image fills the container width */
+   /* height: 50%; Maintain aspect ratio */
+}
+
+
+.edit-form-container form .box {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+
+.edit-form-container form .btn {
+   background-color: #4CAF50;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+.edit-form-container form .option-btn {
+   background-color: #f44336;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   margin-left: 10px;
+}
+
+#close-edit {
+   margin-left: 10px;
+}
+
+/* Button Styles */
+.delete-btn,
+.option-btn,
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn,
+.option-btn {
+    color: #fff;
+}
+
+.delete-btn {
+    background-color: #ff0000;
+}
+
+.delete-btn:hover {
+    background-color: #cc0000;
+}
+
+.option-btn {
+    background-color: #007bff;
+}
+
+.option-btn:hover {
+    background-color: #0056b3;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.add-placement-form {
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #f4f4f4;
+   border-radius: 5px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.add-placement-form h3 {
+   margin-top: 0;
+   margin-bottom: 20px;
+   text-align: center;
+   font-size: 1.5em;
+}
+
+.add-placement-form .box {
+   width: 100%;
+   margin-bottom: 15px;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   box-sizing: border-box;
+}
+
+.add-placement-form .box:focus {
+   outline: none;
+   border-color: #007bff;
+}
+
+.add-placement-form .btn {
+   width: 100%;
+   padding: 10px;
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.add-placement-form .btn:hover {
+   background-color: #0056b3;
+}

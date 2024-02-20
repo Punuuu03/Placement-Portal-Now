@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/place9.jpg');
+  background-size: cover;
+  /* Ensures the background image covers the entire viewport */
+  background-repeat: no-repeat;
+  /* Prevents the background image from repeating */
+}
+
+/* CSS for home.css */
+
+.container {
+  text-align: center;
+  width: 60%;
+  margin: 200px auto;
+
+  background-color: #877459;
+
+  justify-content: center;
+  /* Center aligns items horizontally */
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px black;
+
+}
+
+h1 {
+  color: #101316;
+}
+
+p {
+  color: #f0e8e8;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.apply-button {
+  background-color: #007bff;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.apply-button:hover {
+  background-color: #034891;
+}
+button{
+  text-decoration: none;
+}
